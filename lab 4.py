@@ -82,8 +82,9 @@ while keep_going == True:
                 row = row + 1
     
     if user_choice == "2":
-        print("The Pharaoh releases you from your duties. Farewell, scribe!")
+        print("The Pharaoh releases you from your duties. Farewell scribe!")
         keep_going = False
     
     if user_choice != "1" and user_choice != "2":
         print("Invalid choice! Please enter 1 or 2.")
+
